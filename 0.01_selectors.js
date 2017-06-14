@@ -1,5 +1,5 @@
-alert("jQuery is working")
-//HEY! $(function()); is as good as $(document).ready(function());!!!!
+alert("jQuery is working"); 
+// $(function()); is as good as $(document).ready(function());
 $(function(){
 	
 	//By id - this adds a CSS class
@@ -16,13 +16,8 @@ $(function(){
 	//https://jqueryui.com/draggable/
 	//$('#draggable').draggable();
 
-	$('#id-combo-demo, .class-combo-demo, #draggable').draggable(){;}
-
+	$('#id-combo-demo, .class-combo-demo, #draggable').draggable();
 	$('li:contains("sad")').click(function(){
 		$(this).hide()
 	});
-
-
-
-
 });
